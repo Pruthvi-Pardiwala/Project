@@ -13,10 +13,10 @@ void main()
         {
             printf("%d ",j);
         }
-        //for(l=4;l>=1;l--)
-        //{
-        // printf("%d");
-        //}
+        for(l=4;l>=i;l--)
+        {
+         printf("%d");
+        }
         printf("\n");
     }
 }
