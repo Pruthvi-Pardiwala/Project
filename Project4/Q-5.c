@@ -15,7 +15,7 @@ void main()
         }
         for(l=4;l>=i;l--)
         {
-         printf("%d");
+         printf("%d",l);
         }
         printf("\n");
     }
