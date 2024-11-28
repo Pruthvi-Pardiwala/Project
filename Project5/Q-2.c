@@ -2,28 +2,38 @@
 #include<stdio.h>
 void main()
 {
-    int col=2,row=2,i,j;
-    int arr[row][col];
+    int c,r,i,j;
+    int arr[10][10];
 
-    //printf("Enter the numbers of Row :- ");
-    //scanf("%d",&row);
-    //printf("Enter the numbers of Column :- ");
-    //scanf("%d",&column);
+    printf("Enter the numbers of Row :- ");
+    scanf("%d",&r);
+    printf("Enter the numbers of Column :- ");
+    scanf("%d",&c);
 
-    for(i=0;i<col;i++)
+    for(i=0;i<r;i++)
     {
-        for(j=0;j<row;j++)
+        for(j=0;j<c;j++)
         {
             printf("Enter the elements array[%d][%d] :- ",i,j);
-            scanf("%d",&arr[row][col]);
+            scanf("%d",&arr[i][j]);
         }
     }   
-    for(i=0;i<col;i++)
+    for(i=0;i<r;i++)
     {
-        for(j=0;j<row;j++)
+        for(j=0;j<c;j++)
         {
-            printf("\narray[][] :- %d",arr[row][col]);
+            printf("\narray[%d][%d] :- %d",i,j,arr[i][j]);
         }
-        //printf("\n");
+    }
+    
+    for(i=0;i<r;i++)
+    {
+        for(j=0;j<r;j++)
+        {
+            if()
+            {
+                
+            }
+        }
     }
 }
